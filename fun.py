@@ -5,7 +5,7 @@ pygame.init
 width = 1000
 height = 700
 s = pygame.display.set_mode((width,height))
-
+#wowzers
 running = True
 class base_sprite(pygame.sprite.Sprite):
         def __init__(self, color=(0,0,0), width=0, height=0, image=None,x=0,y=0, scale=None, surface=False):
